@@ -7,9 +7,18 @@
 }
 
 :root {
+<<<<<<< HEAD
   --blue-color: #0069ff;
   --opacity-blue-color: rgba(0, 105, 255, 0.8);
   --block-color: #000000;
+=======
+  --primary-font: Kanit;
+  --secondary-font: Saira;
+  /* --accent-font:; */
+  --primary-color: #0069ff;
+  --secondary-color: rgba(0, 105, 255, 0.8);
+  --accent-color: #000000;
+>>>>>>> main
   --white-color: #fff;
 }
 
@@ -66,7 +75,11 @@
   height: 3px;
   width: 100%;
   border-radius: 20px;
+<<<<<<< HEAD
   background: var(--blue-color);
+=======
+  background: var(--primary-color);
+>>>>>>> main
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s linear;
@@ -77,8 +90,23 @@
 }
 
 .nav-item .nav-link:hover {
+<<<<<<< HEAD
   color: var(--blue-color);
 }
+=======
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-img img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
+
+>>>>>>> main
 /* nav section end  */
 
 /* hero section start  */
@@ -92,6 +120,10 @@
 }
 
 .hero-domain-text h1 {
+<<<<<<< HEAD
+=======
+  font-family: var(--primary-font);
+>>>>>>> main
   font-weight: 900;
   line-height: 1.6;
 }
@@ -101,14 +133,24 @@
 }
 
 .hero-domain-text span {
+<<<<<<< HEAD
   color: var(--blue-color);
+=======
+  color: var(--primary-color);
+>>>>>>> main
 }
 
 .hero-domain-text a {
   text-decoration: none;
   font-weight: 700;
+<<<<<<< HEAD
   color: var(--white-color);
   background-color: var(--blue-color);
+=======
+  margin-top: 20px;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+>>>>>>> main
   padding: 10px 15px;
   border-radius: 5px;
 }
@@ -126,7 +168,11 @@
 }
 
 .domain-brand-name {
+<<<<<<< HEAD
   background: var(--blue-color);
+=======
+  background: linear-gradient(94deg, #0069ff 0%, #233886 99.66%);
+>>>>>>> main
   padding: 40px;
 }
 
@@ -138,6 +184,7 @@
   width: 274px;
   padding: 5px;
   border: 1px solid white;
+<<<<<<< HEAD
   background: var(--blue-color);
   border-radius: 5px;
 }
@@ -154,6 +201,25 @@
 .domain-img {
   /* width: 100%; */
   /* margin: auto; */
+=======
+  /* background: var(--primary-color); */
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+}
+
+.domain-search-input input::placeholder {
+  color: var(--white-color);
+}
+
+.domain-search-input img {
+  width: 70px;
+  padding-right: 40px;
+}
+
+.domain-img {
+  width: 100%;
+  margin: auto;
+>>>>>>> main
   font-weight: 650;
   background-image: url(./../img-shap/Polygon\ 1.png);
   background-repeat: no-repeat;
@@ -175,3 +241,139 @@
 .domain-name span {
   color: var(--opacity-blue-color);
 }
+<<<<<<< HEAD
+=======
+
+/* hero section end */
+
+/*Best sellar section start  */
+
+#sellar-section {
+  padding-top: 60px;
+}
+
+.shap {
+  border-radius: 10px;
+  border: 1px solid #0069ff;
+  background: #fff;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.deviders {
+  width: 300px;
+  height: 2px;
+  margin: auto;
+  background-color: #131518;
+}
+
+.hosting-details {
+  padding: 10px;
+}
+
+.hosting-details img {
+  width: 15px;
+}
+
+.hosting-btn {
+  margin-bottom: 15px;
+}
+
+.hosting-btn a {
+  text-decoration: none;
+  background: var(--primary-color);
+  padding: 10px 15px;
+  color: #fff;
+}
+/* Best sellar section end  */
+
+/* Our Data Centers start  */
+
+#data-centers {
+  padding-top: 80px;
+}
+
+.data-centar-header h1 {
+  font-family: var(--primary-font);
+  font-weight: 800;
+}
+
+.data-centar-header span {
+  color: var(--primary-color);
+}
+
+.data-centar-header p {
+  font-family: var(--secondary-color);
+  font-weight: 600;
+}
+
+.data-centers-map img {
+  padding-top: 40px;
+  width: 100%;
+}
+
+/* Our Data Centers end  */
+
+#domain-info {
+  padding-top: 80px;
+}
+
+.domain-info-header {
+  text-align: center;
+}
+
+.domain-info-header h2 {
+  font-weight: 800;
+}
+
+.domain-info-header span {
+  color: var(--primary-color);
+}
+
+.domain-info-header p {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+}
+
+.task-domain-details {
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #0069ff;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.domain-info-img img {
+  width: 70%;
+}
+
+.domain-text-info {
+  padding: 25px;
+}
+
+
+.domain-text-info h2{
+  font-weight: 800;
+}
+
+.domain-text-info span{
+
+  line-height: 1.9;
+  color: var(--primary-color);
+}
+
+
+
+.domain-hosting-details{
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #0069ff;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.domain-hosting-img img {
+  width: 50%;
+}
+>>>>>>> main
