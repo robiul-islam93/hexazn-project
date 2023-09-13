@@ -194,108 +194,133 @@
 
 /* hero section end */
 
-/* sellar section start  */
+/*Best sellar section start  */
 
 #sellar-section {
   padding-top: 60px;
 }
 
-/* .best-sellar-heading {
-  width: 650px;
+.shap {
+  border-radius: 10px;
+  border: 1px solid #0069ff;
+  background: #fff;
   text-align: center;
-  margin: auto;
   padding: 10px;
-  font-family: var(--primary-font);
-  border-radius: 15px;
-  border-top: 5px solid #0069ff;
-  border-bottom: 5px solid #0069ff;
-  background: #fff;
-}
-
-.best-sellar-heading span {
-  color: var(--primary-color);
-}
-
-.border {
-  border-radius: 10px;
-  border: 1px solid #0069ff;
-  background: #fff;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
 }
 
-.hosting-price {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap:12px;
-}
-
-.hosting-price-name {
-  border-radius: 10px;
-  border: 1px solid #0069ff;
-  background: #fff;
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
-  width: 100%;
-  background-image: url(./../img/hosting-price-name.png);
-}
-
-
-
-.price h2{
-  line-height: 90px;
-    font-weight: 900;
-}
-
-.price p{
-  color: var(--primary-color);
-    font-weight: 600;
-}
-
-.price span{
-  color: var(--primary-color);
-}
-
-.deviders{
-  width: 150px;
-  height: 2px;
-  margin: auto;
-  background-color: #131518;
-} */
-
-
-
-.shap{
-    border-radius: 10px;
-    border: 1px solid #0069ff;
-    background: #fff;
-    text-align: center;
-    padding: 10px;
-    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
-}
-
-
-.deviders{
+.deviders {
   width: 300px;
   height: 2px;
   margin: auto;
   background-color: #131518;
 }
 
-.hosting-details{
+.hosting-details {
   padding: 10px;
 }
 
-.hosting-details img{
-  width: 20px;
-
+.hosting-details img {
+  width: 15px;
 }
 
-.hosting-btn{
+.hosting-btn {
   margin-bottom: 15px;
 }
 
-.hosting-btn a{
+.hosting-btn a {
   text-decoration: none;
   background: var(--primary-color);
   padding: 10px 15px;
   color: #fff;
+}
+/* Best sellar section end  */
+
+/* Our Data Centers start  */
+
+#data-centers {
+  padding-top: 80px;
+}
+
+.data-centar-header h1 {
+  font-family: var(--primary-font);
+  font-weight: 800;
+}
+
+.data-centar-header span {
+  color: var(--primary-color);
+}
+
+.data-centar-header p {
+  font-family: var(--secondary-color);
+  font-weight: 600;
+}
+
+.data-centers-map img {
+  padding-top: 40px;
+  width: 100%;
+}
+
+/* Our Data Centers end  */
+
+#domain-info {
+  padding-top: 80px;
+}
+
+.domain-info-header {
+  text-align: center;
+}
+
+.domain-info-header h2 {
+  font-weight: 800;
+}
+
+.domain-info-header span {
+  color: var(--primary-color);
+}
+
+.domain-info-header p {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+}
+
+.task-domain-details {
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #0069ff;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.domain-info-img img {
+  width: 70%;
+}
+
+.domain-text-info {
+  padding: 25px;
+}
+
+
+.domain-text-info h2{
+  font-weight: 800;
+}
+
+.domain-text-info span{
+
+  line-height: 1.9;
+  color: var(--primary-color);
+}
+
+
+
+.domain-hosting-details{
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #0069ff;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.domain-hosting-img img {
+  width: 50%;
 }
